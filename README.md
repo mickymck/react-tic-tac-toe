@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Purpose
+
+My first exposure to React, following the standard tutorial found here:
+
+https://reactjs.org/tutorial/tutorial.html
+
+I didn't love the way the game just stopped and locked when the game was won, as written in the tutorial, so I made it so that an alert would pop up when the game is won, resetting the state back to move 0. I also removed future steps when the user went back in time to a previous step. For example, if the user has made 6 moves, and wanted to go back to step 2, then steps 3 through 6 would all disappear.
+
 ## Available Scripts
 
 In the project directory, you can run:
